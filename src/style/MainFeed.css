@@ -4,18 +4,18 @@
    overflow-y: scroll;
 }
 .mainfeed {
-   background: blue;
+   min-height: 1500px;
 }
 
 /* Hiding scrollbar */
-/* .feed {
+.feed {
    -ms-overflow-style: none;
    scrollbar-width: none;
 }
 
 .feed::-webkit-scrollbar {
    display: none;
-} */
+}
 
 /* Header */
 .feed__header {

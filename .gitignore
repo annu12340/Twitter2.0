@@ -24,4 +24,4 @@ yarn-error.log*
 
 
 # firebase api keys
-/src/components/Feed/firebase.js
+.env  

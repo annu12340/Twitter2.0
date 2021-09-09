@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/WhatsHappening.css";
-import { Timeline } from "react-twitter-widgets";
+import { Tweet } from "react-twitter-widgets";
 import SearchIcon from "@material-ui/icons/Search";
 
 const WhatsHappening = () => {
@@ -13,7 +13,8 @@ const WhatsHappening = () => {
 
          <div className='whatshappening-widgets__widgetContainer'>
             <h2>What's happening</h2>
-            <Timeline dataSource={{ sourceType: "profile", screenName: "reactjs" }} />
+            <Tweet tweetId='1435909923167215617' />
+            <Tweet tweetId='1435901953918263296' />
          </div>
       </div>
    );

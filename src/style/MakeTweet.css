@@ -1,8 +1,8 @@
 .MakeTweet {
    padding-bottom: 10px;
-   border-bottom: 8px solid var(--twitter-background);
+   border-bottom: 2px solid var(--twitter-background);
    padding-right: 10px;
-   height: 150px;
+   height: 180px;
 }
 
 .MakeTweet > form {
@@ -22,6 +22,9 @@
    border: none;
 }
 
+input:focus {
+   outline: none;
+}
 .MakeTweet__imageInput {
    border: none;
    padding: 10px;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../style/Posts.css";
 
 import { Avatar } from "@material-ui/core";
@@ -9,12 +9,12 @@ import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import PublishIcon from "@material-ui/icons/Publish";
 
 function Posts({ displayName, username, verified, text, image, avatar }) {
-   const [posts, setPosts] = useState([]);
    return (
       <div className='post'>
          {/* Header */}
+
          <div className='post__avatar'>
-            <Avatar src={avatar} />
+            <Avatar style={{ height: "70px", width: "70px" }} src={avatar} />
          </div>
 
          {/* Body */}
@@ -32,7 +32,7 @@ function Posts({ displayName, username, verified, text, image, avatar }) {
                   <p>{text}</p>
                </div>
             </div>
-            <img src={image} alt='' />
+            {image && <img src={image} width='500' height='250' alt='' />}
 
             {/* Footer */}
             <div className='post__footer'>

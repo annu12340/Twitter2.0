@@ -1,6 +1,6 @@
 import React from "react";
-import "../style/Feed.css";
-function Feed() {
+import "../../style/Posts.css";
+function Posts() {
    return (
       <div>
          Home s{/* Area to make tweet */}
@@ -9,4 +9,4 @@ function Feed() {
    );
 }
 
-export default Feed;
+export default Posts;

@@ -1,6 +1,6 @@
 import "./App.css";
-import Sidebar from "./components/Sidebar";
-import MainFeed from "./components/MainFeed";
+import Sidebar from "./components/Sidebar/Sidebar";
+import MainFeed from "./components/Feed/MainFeed";
 import WhatsHappening from "./components/WhatsHappening";
 
 function App() {

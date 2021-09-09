@@ -1,6 +1,6 @@
 import React from "react";
-import SidebarIcon from "./SidebarIcon";
-import "../style/Sidebar.css";
+import SidebarIcon from "../Sidebar/SidebarIcon";
+import "../../style/Sidebar.css";
 
 import TwitterIcon from "@material-ui/icons/Twitter";
 import HomeIcon from "@material-ui/icons/Home";

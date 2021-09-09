@@ -1,6 +1,7 @@
 import React from "react";
-import "../style/MainFeed.css";
-import Feed from "./Feed";
+import "../../style/MainFeed.css";
+import Posts from "../Feed/Posts";
+import MakeTweet from "./MakeTweet";
 
 const MainFeed = () => {
    return (
@@ -9,8 +10,8 @@ const MainFeed = () => {
          <div className='feed__header'>
             <h2>Recent Tweets</h2>
          </div>
-
-         <Feed />
+         <MakeTweet />
+         <Posts />
       </div>
    );
 };

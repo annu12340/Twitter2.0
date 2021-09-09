@@ -37,6 +37,6 @@
    border-radius: 30px !important;
    width: 80px;
    height: 40px !important;
-   margin-top: 10px !important;
+   margin-top: -10px !important;
    margin-left: auto !important;
 }

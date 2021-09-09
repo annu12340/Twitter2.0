@@ -8,7 +8,7 @@ function MakeTweet() {
       <div className='MakeTweet'>
          <form action=''>
             <div className='MakeTweet__input'>
-               <Avatar src='https://images.unsplash.com/photo-1488426862026-3ee34a7d66df' />
+               <Avatar style={{ height: "70px", width: "70px" }} src='https://images.unsplash.com/photo-1488426862026-3ee34a7d66df' />
                {/* onChange={(e) => setTweetMessage(e.target.value)} value={tweetMessage} */}
                <input placeholder="What's happening?" type='text' />
             </div>

@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../style/Posts.css";
+
+import { Avatar } from "@material-ui/core";
+import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
+import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
+import RepeatIcon from "@material-ui/icons/Repeat";
+import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+import PublishIcon from "@material-ui/icons/Publish";
+
 function Posts({ displayName, username, verified, text, image, avatar }) {
+   const [posts, setPosts] = useState([]);
    return (
       <div className='post'>
          {/* Header */}
